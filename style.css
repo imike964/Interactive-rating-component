@@ -1,0 +1,83 @@
+:root{
+--Orange: hsl(25, 97%, 53%);
+
+
+--White: hsl(0, 0%, 100%);
+--Light-Grey: hsl(217, 12%, 63%);
+--Medium-Grey: hsl(216, 12%, 54%);
+--Dark-Blue: hsl(213, 19%, 18%);
+--Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.card{
+    background-color: var(--Very-Dark-Blue);
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    display: block;
+    padding-top: 25px;
+}
+
+.text-container{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.text-container h1{
+    color: white;
+}
+
+.text-container p{
+
+    color: gray;
+}
+
+.rate-button{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: var(--Medium-Grey);
+}
+
+.star-container{
+    background-color: var(--Dark-Blue);
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.button-container{
+
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-style: none;
+
+
+}
+
+#submit-button{
+    background-color: var(--Orange);
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.star-container img{
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
