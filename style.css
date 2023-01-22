@@ -94,5 +94,34 @@
     height: 25px;
     display: flex;
     /* padding: 10px 10px 10px 10px; */
+}
 
+/* ###########################Thank you card###################### */
+
+.thankyou-card{
+    background-color: var(--Very-Dark-Blue);
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    display:flex;
+    padding-top: 25px;
+    justify-content: center;
+
+}
+
+.thankyou-card img{
+    /* justify-content: center; */
+    /* padding-left: 25px; */
+    padding-top: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+#result-text{
+    color: var(--Orange);
+}
+
+.card-contents{
+    padding-left: 50px;
+    padding-right: 50px;
 }
