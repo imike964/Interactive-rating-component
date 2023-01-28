@@ -45,9 +45,11 @@
     width: 45px;
     height: 45px;
     color: white;
-    background-color: var(--Medium-Grey);
+    background-color: var(--Dark-Blue);
     cursor: pointer;
 }
+
+
 
 .star-container{
     background-color: var(--Dark-Blue);
@@ -70,8 +72,21 @@
 
 .button-container button{
     border: none;
-    background-color: var(--Dark-Blue);
+    /* background-color: var(--Dark-Blue); */
 }
+
+.button-container button:active::after{
+    background-color: pink
+} 
+
+.button-container button:hover{
+    background-color: var(--Orange);
+    transition: 0.2s;
+}
+
+/* .active-button{
+    background-color: grey;
+} */
 
 #submit-button button{
     border: none;
