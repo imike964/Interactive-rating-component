@@ -40,17 +40,6 @@
     color: gray;
 }
 
-.rate-button{
-    border-radius: 100%;
-    width: 45px;
-    height: 45px;
-    color: white;
-    background-color: var(--Dark-Blue);
-    cursor: pointer;
-}
-
-
-
 .star-container{
     background-color: var(--Dark-Blue);
     height: 45px;
@@ -61,8 +50,10 @@
     align-items: center;
 }
 
-.button-container{
+/* ####################Rate buttons CSS ############################  */
 
+
+.button-container{
     display: flex;
     justify-content: space-between;
     border-style: none;
@@ -70,23 +61,34 @@
     padding-right: 40px;
 }
 
-.button-container button{
+.button-container .button{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: var(--Dark-Blue);  
+    cursor: pointer;
     border: none;
-    /* background-color: var(--Dark-Blue); */
 }
 
-.button-container button:active::after{
-    background-color: pink
-} 
+
+
+.active-button{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: blue;  
+    cursor: pointer;
+    border: none;
+}
 
 .button-container button:hover{
     background-color: var(--Orange);
     transition: 0.2s;
 }
 
-/* .active-button{
-    background-color: grey;
-} */
+/* ####################Rate buttons CSS ############################  */
 
 #submit-button button{
     border: none;
